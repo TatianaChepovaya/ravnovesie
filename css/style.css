@@ -56,7 +56,7 @@ body {
 .header {
   max-width: 1600px;
   height: 630px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/baner.jpg');
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/banner.jpg');
 }
 
 .header__button {
