@@ -44,8 +44,8 @@
         <div class="container about-us__container">
           <h2 class="title about-us__title">О нас</h2>
           <div class="about-us--flex">
-            <div><img src="./images/about-us.jpg" alt="" width="460" /></div>
-            <p>
+            <img class="about-us__img" src="./images/about-us.jpg" alt="" width="460" />
+            <p class="about-us__text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -57,8 +57,9 @@
               est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
               tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
             </p>
-            <a class="link" href="">Больше о нас</a>
+            <a class="link about-us__link" href="">Больше о нас</a>
           </div>
+        
         </div>
       </section>
       <section class="section programs">
@@ -66,40 +67,43 @@
           <h2 class="title programs__title">Учебные программы</h2>
           <ul class="list program">
             <li class="program__item">
-              <p>1</p>
-              <h3>Нейропсихологическая диагностика и коррекция в детском возрасте.</h3>
-              <p>
+              <p class="program__number">1</p>
+              <h3 class="program__title">Нейропсихологическая диагностика и коррекция в детском возрасте.</h3>
+              <p class="program__text">
                 Краткое описание курса образовательной программы основываясь на полной программе курса. Основные плюсы и
                 знания которые получат специалисты записавшиеся на данную программу. Эти фьючерсы можно вынести в виде
                 пунктов ниже. Также тут должно быть видео и ссылка на полную программу.
               </p>
-              <a class="link program__link" href="">Отзывы</a>
-              <a class="link" href="">Вся программа</a>
-              <a class="link" href="">Записатся на курс</a>
+              
+              <a class="link program__link--review" href="">Отзывы</a>
+              <a class="link program__link--all-program" href="">Вся программа</a>
+              <a class="link program__link--sign-up" href="">Записатся на курс</a>
             </li>
             <li class="program__item">
-              <p>2</p>
-              <h3>Психологическое сопровождение аутизма.</h3>
-              <p>
+              <p class="program__number">2</p>
+              <h3 class="program__title">Психологическое сопровождение аутизма.</h3>
+              <p class="program__text">
                 Краткое описание курса образовательной программы основываясь на полной программе курса. Основные плюсы и
                 знания которые получат специалисты записавшиеся на данную программу. Эти фьючерсы можно вынести в виде
                 пунктов ниже. Также тут должно быть видео и ссылка на полную программу.
               </p>
-              <a class="link" href="">Отзывы</a>
-              <a class="link" href="">Вся программа</a>
-              <a class="link" href="">Записатся на курс</a>
+             
+              <a class="link program__link--review" href="">Отзывы</a>
+              <a class="link program__link--all-program" href="">Вся программа</a>
+              <a class="link program__link--sign-up" href="">Записатся на курс</a>
             </li>
             <li class="program__item">
-              <p>3</p>
-              <h3>Психотерапиядетей и подростков.</h3>
-              <p>
+              <p class="program__number">3</p>
+              <h3 class="program__title">Психотерапия детей и подростков.</h3>
+              <p class="program__text">
                 Краткое описание курса образовательной программы основываясь на полной программе курса. Основные плюсы и
                 знания которые получат специалисты записавшиеся на данную программу. Эти фьючерсы можно вынести в виде
                 пунктов ниже. Также тут должно быть видео и ссылка на полную программу.
               </p>
-              <a class="link" href="">Отзывы</a>
-              <a class="link" href="">Вся программа</a>
-              <a class="link" href="">Записатся на курс</a>
+            
+              <a class="link program__link--review" href="">Отзывы</a>
+              <a class="link program__link--all-program" href="">Вся программа</a>
+              <a class="link program__link--sign-up" href="">Записатся на курс</a>
             </li>
           </ul>
         </div>
@@ -132,18 +136,37 @@
           <a class="link" href="">Больше отзывов</a>
         </div>
       </section>
-      <section class="section">
-        <div class="container">
-          <h2 class="title">Программы и стоимость</h2>
-          <ul class="list">
-            <li>
-              <span>1</span>Нейропсихологическая диагностика и коррекция в детском возрасте<span>10500</span
-              ><a href=""></a>
+      <section class="section price">
+        <div class="container price__container">
+          <h2 class="title price__title">Программы и стоимость</h2>
+          <ul class="list price__list">
+            <li class="price__item">
+              <span class="price__number">1</span><span class="price__text">Нейропсихологическая диагностика и коррекция в детском возрасте</span><span
+                class="price__cost"
+                >10500</span
+              ><a class="link price__link" href="">Записаться</a>
             </li>
-            <li><span>2</span>Психологическое сопровождение аутизма.<span>9800</span><a href=""></a></li>
-            <li><span>3</span>Психотерапия детей и подростков.<span>10000</span><a href=""></a></li>
-            <li><span>4</span>Работа с семьей в практике детского психолога.<span>8900</span><a href=""></a></li>
-            <li><span>5</span> Нейропсихологический подход к трудностям обучения.<span>8000</span><a href=""></a></li>
+            <li class="price__item">
+              <span class="price__number">2</span><span class="price__text">Психологическое сопровождение аутизма.</span><span class="price__cost"
+                >9800</span
+              ><a class="link price__link" href="">Записаться</a>
+            </li>
+            <li class="price__item">
+              <span class="price__number">3</span><span class="price__text">Психотерапия детей и подростков.</span><span class="price__cost">10000</span
+              ><a class="link price__link" href="">Записаться</a>
+            </li>
+            <li class="price__item">
+              <span class="price__number">4</span><span class="price__text">Работа с семьей в практике детского психолога.</span><span
+                class="price__cost"
+                >8900</span
+              ><a class="link price__link" href="">Записаться</a>
+            </li>
+            <li class="price__item">
+              <span class="price__number">5</span><span class="price__text">Нейропсихологический подход к трудностям обучения.</span></span><span
+                class="price__cost"
+                >8000</span
+              ><a class="link price__link" href="">Записаться</a>
+            </li>
           </ul>
         </div>
       </section>
@@ -157,14 +180,14 @@
       </section>
     </main>
     <footer>
-      <section class="section">
-        <div class="container">
-          <p>Поддержка:</p>
-          <p>+38 000 000 00 00</p>
-          <p>info@rivnovaha.education</p>
-          <p>Договор публичной оферты</p>
-          <p>Политика конфиденциальности</p>
-          <p>(с) Образовательный центр</p>
+      <section class="section footer">
+        <div class="container footer__container">
+          <h4 class="footer__title">Поддержка:</h4>
+          <ul class="list footer__list"><li  class="footer__item">+38 000 000 00 00</li>
+          <li class="footer__item">info@rivnovaha.education</li></ul>
+          <p class="footer__text">Договор публичной оферты</p>
+          <p class="footer__text">Политика конфиденциальности</p>
+          <p class="footer__text">(с) Образовательный центр</p>
         </div>
       </section>
     </footer>
