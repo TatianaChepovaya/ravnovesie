@@ -53,14 +53,9 @@ body {
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 1200px) {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
 .header {
   max-width: 1600px;
+  height: 630px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/baner.jpg');
 }
 
@@ -69,4 +64,10 @@ body {
   padding: 10px 32px;
   color: #ffffff;
   background-color: #83c31e;
+}
+.programs {
+  max-width: 1600px;
+  height: 630px;
+  background-image: linear-gradient(to right, rgba(31, 215, 77, 0.3), rgba(31, 215, 77, 0.3)),
+    url('../images/program.jpg');
 }
